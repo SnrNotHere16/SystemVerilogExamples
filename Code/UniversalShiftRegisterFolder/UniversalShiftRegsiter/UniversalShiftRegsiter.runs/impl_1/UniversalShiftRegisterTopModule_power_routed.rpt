@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date             : Sun Oct 17 19:20:15 2021
+| Date             : Mon Oct 18 12:28:08 2021
 | Host             : DESKTOP-NDOLUA7 running 64-bit major release  (build 9200)
 | Command          : report_power -file UniversalShiftRegisterTopModule_power_routed.rpt -pb UniversalShiftRegisterTopModule_power_summary_routed.pb -rpx UniversalShiftRegisterTopModule_power_routed.rpx
 | Design           : UniversalShiftRegisterTopModule
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 3.426        |
+| Total On-Chip Power (W)  | 4.103        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 3.314        |
-| Device Static (W)        | 0.112        |
+| Dynamic (W)              | 3.986        |
+| Device Static (W)        | 0.116        |
 | Effective TJA (C/W)      | 4.6          |
-| Max Ambient (C)          | 69.4         |
-| Junction Temperature (C) | 40.6         |
+| Max Ambient (C)          | 66.3         |
+| Junction Temperature (C) | 43.7         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,16 +52,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.156 |      104 |       --- |             --- |
-|   LUT as Logic |     0.112 |       44 |     63400 |            0.07 |
-|   CARRY4       |     0.019 |        8 |     15850 |            0.05 |
+| Slice Logic    |     0.173 |      108 |       --- |             --- |
+|   LUT as Logic |     0.129 |       49 |     63400 |            0.08 |
 |   Register     |     0.019 |       47 |    126800 |            0.04 |
+|   CARRY4       |     0.019 |        8 |     15850 |            0.05 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
-|   Others       |     0.000 |        4 |       --- |             --- |
-| Signals        |     0.219 |      104 |       --- |             --- |
-| I/O            |     2.939 |       11 |       210 |            5.24 |
-| Static Power   |     0.112 |          |           |                 |
-| Total          |     3.426 |          |           |                 |
+|   Others       |     0.000 |        3 |       --- |             --- |
+| Signals        |     0.258 |      108 |       --- |             --- |
+| I/O            |     3.556 |       14 |       210 |            6.67 |
+| Static Power   |     0.116 |          |           |                 |
+| Total          |     4.103 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,16 +71,16 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.426 |       0.399 |      0.027 |
-| Vccaux    |       1.800 |     0.126 |       0.107 |      0.019 |
-| Vcco33    |       3.300 |     0.829 |       0.825 |      0.004 |
+| Vccint    |       1.000 |     0.498 |       0.467 |      0.031 |
+| Vccaux    |       1.800 |     0.149 |       0.129 |      0.020 |
+| Vcco33    |       3.300 |     1.000 |       0.996 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       1.000 |     0.001 |       0.000 |      0.001 |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
@@ -138,10 +138,10 @@ Table of Contents
 +---------------------------------+-----------+
 | Name                            | Power (W) |
 +---------------------------------+-----------+
-| UniversalShiftRegisterTopModule |     3.314 |
-|   one                           |     0.030 |
-|   two                           |     0.018 |
-|   zero                          |     0.296 |
+| UniversalShiftRegisterTopModule |     3.986 |
+|   one                           |     0.027 |
+|   two                           |     0.047 |
+|   zero                          |     0.312 |
 +---------------------------------+-----------+
 
 

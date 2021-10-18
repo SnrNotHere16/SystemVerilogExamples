@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Sun Oct 17 19:20:14 2021
+| Date         : Mon Oct 18 12:28:07 2021
 | Host         : DESKTOP-NDOLUA7 running 64-bit major release  (build 9200)
 | Command      : report_drc -file UniversalShiftRegisterTopModule_drc_routed.rpt -pb UniversalShiftRegisterTopModule_drc_routed.pb -rpx UniversalShiftRegisterTopModule_drc_routed.rpx
 | Design       : UniversalShiftRegisterTopModule
@@ -50,12 +50,12 @@ Related violations: <none>
 
 PDRC-153#1 Warning
 Gated clock check  
-Net one/CLK is a gated clock net sourced by a combinational pin one/Q[3]_i_1/O, cell one/Q[3]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net one/CLK is a gated clock net sourced by a combinational pin one/Q[3]_i_3/O, cell one/Q[3]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PLHOLDVIO-2#1 Warning
 Non-Optimal connections which could lead to hold violations  
-A LUT one/Q[3]_i_1 is driving clock pin of 4 cells. This could lead to large hold time violations. Involved cells are:
+A LUT one/Q[3]_i_3 is driving clock pin of 4 cells. This could lead to large hold time violations. Involved cells are:
 two/Q_reg[0], two/Q_reg[1], two/Q_reg[2], two/Q_reg[3]
 Related violations: <none>
 

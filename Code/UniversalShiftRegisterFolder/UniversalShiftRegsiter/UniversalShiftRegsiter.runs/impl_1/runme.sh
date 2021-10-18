@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/OAkun/UniversalShiftRegsiter/UniversalShiftRegsiter.runs/impl_1'
+HD_PWD='C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/UniversalShiftRegisterFolder/UniversalShiftRegsiter/UniversalShiftRegsiter.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

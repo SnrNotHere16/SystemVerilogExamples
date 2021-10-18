@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Sun Oct 17 19:19:29 2021
+| Date         : Mon Oct 18 12:27:29 2021
 | Host         : DESKTOP-NDOLUA7 running 64-bit major release  (build 9200)
 | Command      : report_drc -file UniversalShiftRegisterTopModule_drc_opted.rpt -pb UniversalShiftRegisterTopModule_drc_opted.pb -rpx UniversalShiftRegisterTopModule_drc_opted.rpx
 | Design       : UniversalShiftRegisterTopModule
@@ -49,7 +49,7 @@ Related violations: <none>
 
 PLHOLDVIO-2#1 Warning
 Non-Optimal connections which could lead to hold violations  
-A LUT one/Q[3]_i_1 is driving clock pin of 4 cells. This could lead to large hold time violations. Involved cells are:
+A LUT one/Q[3]_i_3 is driving clock pin of 4 cells. This could lead to large hold time violations. Involved cells are:
 two/Q_reg[0], two/Q_reg[1], two/Q_reg[2], two/Q_reg[3]
 Related violations: <none>
 

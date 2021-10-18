@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Sun Oct 17 19:20:15 2021
+| Date         : Mon Oct 18 12:28:08 2021
 | Host         : DESKTOP-NDOLUA7 running 64-bit major release  (build 9200)
 | Command      : report_methodology -file UniversalShiftRegisterTopModule_methodology_drc_routed.rpt -pb UniversalShiftRegisterTopModule_methodology_drc_routed.pb -rpx UniversalShiftRegisterTopModule_methodology_drc_routed.rpx
 | Design       : UniversalShiftRegisterTopModule
