@@ -1,0 +1,80 @@
+module rtlcDiv_m_rtlsim_uns_div_4_4_4( out_3 ,out_2 ,out_1 ,out_0 ,in1_3 ,in1_2 ,in1_1 ,in1_0 ,in2_3 ,in2_2 ,in2_1 , in2_0 );
+
+output out_3 ;
+reg out_3 ;
+output out_2 ;
+reg out_2 ;
+output out_1 ;
+reg out_1 ;
+output out_0 ;
+reg out_0 ;
+
+
+input in1_3 ;
+input in1_2 ;
+input in1_1 ;
+input in1_0 ;
+
+
+input in2_3 ;
+input in2_2 ;
+input in2_1 ;
+input in2_0 ;
+
+
+reg [3:0] arg_quotient;
+wire [3:0] valuein2;
+assign valuein2[3:0] = {in2_3 ,in2_2 ,in2_1 ,in2_0 };
+wire [3:0] valuein1;
+assign valuein1[3:0] = { in1_3 ,in1_2 ,in1_1 ,in1_0 };
+
+function [3:0] quotient;
+
+input [3:0] valuein1;
+input [3:0] valuein2;
+
+reg [1:0] i;
+reg [1:0] j;
+reg [7:0] product;
+reg [3:0] diff1;
+reg [3:0] diff1_temp1;
+reg [3:0] diff1_temp2;
+reg [4:0] diff1_temp3;
+reg borrow1;
+reg borrow2;
+
+begin
+
+quotient = 0;
+product = 0;
+if ( valuein2 != 0 )
+begin
+	if( valuein2 == 1 )
+		quotient = valuein1;
+	else
+	begin
+	quotient = 0;
+	for ( i = 3; i > 0 ; i = i - 1)
+	begin
+		product = valuein2 << (i - 1);
+		{borrow1,diff1} = valuein1 - product[3:0];
+		borrow2        = ~( (~borrow1) & (& (~product[7:4]))  );
+		if (borrow2 == 0)
+		begin
+			quotient = quotient | (1<<(i - 1));
+			valuein1 = diff1;
+		end
+	end
+	end
+end
+end
+endfunction
+
+always @(valuein1 or valuein2)
+begin
+arg_quotient = quotient(valuein1, valuein2);
+{ out_3 ,out_2 ,out_1 ,out_0 } = arg_quotient[3:0];
+
+end
+
+endmodule

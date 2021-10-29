@@ -1,0 +1,11 @@
+Inferred RAM
+------------
+  1. Instance: rtlc__fifo_storage_1_storage_I1
+    File: D:/sandbox/dvcon_paper_examples/example16c.sv , Net: storage, Type: single port
+    port 1  write
+    port 1  address width: 5
+    port 1  data width: 8
+    port 2  read
+    port 2  address width: 5
+    port 2  data width: 8
+

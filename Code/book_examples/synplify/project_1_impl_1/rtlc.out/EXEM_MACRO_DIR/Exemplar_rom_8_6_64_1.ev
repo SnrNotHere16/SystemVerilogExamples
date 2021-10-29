@@ -1,0 +1,25 @@
+module rom_8_6_64_1(address, q );
+
+input [5 : 0] address;
+wire [5 : 0] address;
+output [7 : 0] q;
+wire [7 : 0] q;
+
+mux_64u_6u mux0 (.a({ 32'b11111111111111111111111111111111, 16'b0, 16'b1111111111111111 }), .b({ address[5], address[4], address[3], address[2], address[1], address[0] }), .d(q[0]));
+
+mux_64u_6u mux1 (.a({ 16'b0, 32'b11111111111111111111111111111111, 16'b0 }), .b({ address[5], address[4], address[3], address[2], address[1], address[0] }), .d(q[1]));
+
+mux_64u_6u mux2 (.a({ 7'b0, 8'b11111111, 49'b0 }), .b({ address[5], address[4], address[3], address[2], address[1], address[0] }), .d(q[2]));
+
+mux_64u_6u mux3 (.a({ 6'b0, 1'b1, 57'b0 }), .b({ address[5], address[4], address[3], address[2], address[1], address[0] }), .d(q[3]));
+
+mux_64u_6u mux4 (.a({ 6'b0, 2'b11, 56'b0 }), .b({ address[5], address[4], address[3], address[2], address[1], address[0] }), .d(q[4]));
+
+mux_64u_6u mux5 (.a({ 4'b1111, 1'b0, 59'b11111111111111111111111111111111111111111111111111111111111 }), .b({ address[5], address[4], address[3], address[2], address[1], address[0] }), .d(q[5]));
+
+mux_64u_6u mux6 (.a({ 6'b111111, 2'b0, 56'b11111111111111111111111111111111111111111111111111111111 }), .b({ address[5], address[4], address[3], address[2], address[1], address[0] }), .d(q[6]));
+
+mux_64u_6u mux7 (.a({ 1'b1, 63'b0 }), .b({ address[5], address[4], address[3], address[2], address[1], address[0] }), .d(q[7]));
+
+endmodule
+
