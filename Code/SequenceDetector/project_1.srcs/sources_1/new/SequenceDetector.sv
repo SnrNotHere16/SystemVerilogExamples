@@ -48,19 +48,19 @@ module SequenceDetector(input wire logic clk,
 //    end 
     
 //    //Output Decoder -- Combinational 
-    always_comb begin 
-        unique case (current_state) 
-            RESET: {Q, Z} = 4'b111_0; 
-            ZERO: {Q, Z} = 4'b000_0; 
-            ONE: {Q, Z} = 4'b001_0; 
-            TWO: {Q, Z} = 4'b010_0; 
-            THREE: {Q, Z} = 4'b011_0;
-            FOUR: {Q, Z} = 4'b100_0;  
-            FIVE: {Q, Z} = 4'b101_0; 
-            FOUND: {Q, Z} = 4'b110_1; 
-            default: {Q,Z} = 4'b000_0; 
-            endcase  
-    end 
+//    always_comb begin 
+//        unique case (current_state) 
+//            RESET: {Q, Z} = 4'b111_0; 
+//            ZERO: {Q, Z} = 4'b000_0; 
+//            ONE: {Q, Z} = 4'b001_0; 
+//            TWO: {Q, Z} = 4'b010_0; 
+//            THREE: {Q, Z} = 4'b011_0;
+//            FOUR: {Q, Z} = 4'b100_0;  
+//            FIVE: {Q, Z} = 4'b101_0; 
+//            FOUND: {Q, Z} = 4'b110_1; 
+//            default: {Q,Z} = 4'b000_0; 
+//            endcase  
+//    end 
 //    always_comb begin 
 //        unique case(current_state)
 //            RESET: begin
@@ -108,5 +108,17 @@ module SequenceDetector(input wire logic clk,
 //                      end
 //            endcase
 //    end 
-
+    always_comb begin 
+        case(current_state)
+            RESET: next_state = ZERO;
+            ZERO: next_state=(X)? ZERO: ONE; 
+            ONE: next_state=(X)? TWO: ONE;
+            TWO: next_state=(X)? ZERO: THREE; 
+            THREE: next_state=(X)? FOUR: ONE; 
+            FOUR: next_state=(X)? FIVE: THREE; 
+            FIVE: next_state=(X)? ZERO: FOUND; 
+            FOUND: next_state=(X)? ZERO: ONE; 
+            default:  next_state = ZERO; 
+         endcase
+    end 
 endmodule
