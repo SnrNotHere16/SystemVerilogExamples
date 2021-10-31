@@ -2,10 +2,10 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sun Oct 31 00:30:21 2021
-# Process ID: 2240
+# Start of session at: Sun Oct 31 13:47:59 2021
+# Process ID: 18156
 # Current directory: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19428 C:\Users\OAkun\Documents\GitHub\SystemVerilogExamples\Code\SequenceDetector\project_1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17580 C:\Users\OAkun\Documents\GitHub\SystemVerilogExamples\Code\SequenceDetector\project_1.xpr
 # Log file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/vivado.log
 # Journal file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector\vivado.jou
 #-----------------------------------------------------------
@@ -16,7 +16,85 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
-open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:12 . Memory (MB): peak = 898.703 ; gain = 239.074
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 838.438 ; gain = 210.734
 update_compile_order -fileset sources_1
-exit
-INFO: [Common 17-206] Exiting Vivado at Sun Oct 31 00:37:08 2021...
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Oct 31 14:46:32 2021] Launched synth_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
+[Sun Oct 31 14:46:32 2021] Launched impl_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Oct 31 14:54:30 2021] Launched synth_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
+[Sun Oct 31 14:54:31 2021] Launched impl_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Oct 31 15:01:19 2021] Launched synth_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
+[Sun Oct 31 15:01:19 2021] Launched impl_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 1871.527 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 1871.527 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1871.527 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 2028.547 ; gain = 213.684
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Oct 31 15:29:10 2021] Launched synth_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
+[Sun Oct 31 15:29:10 2021] Launched impl_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
+close_design
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Oct 31 15:33:50 2021] Launched synth_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
+[Sun Oct 31 15:33:50 2021] Launched impl_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Oct 31 15:36:40 2021] Launched synth_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
+[Sun Oct 31 15:36:40 2021] Launched impl_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Oct 31 15:39:05 2021] Launched synth_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
+[Sun Oct 31 15:39:05 2021] Launched impl_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Oct 31 15:54:59 2021] Launched synth_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
+[Sun Oct 31 15:54:59 2021] Launched impl_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Oct 31 15:59:27 2021] Launched synth_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
+[Sun Oct 31 15:59:27 2021] Launched impl_1...
+Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log

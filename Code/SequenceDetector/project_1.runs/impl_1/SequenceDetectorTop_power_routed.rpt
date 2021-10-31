@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date             : Sat Oct 30 21:38:42 2021
+| Date             : Sun Oct 31 16:01:21 2021
 | Host             : DESKTOP-NDOLUA7 running 64-bit major release  (build 9200)
 | Command          : report_power -file SequenceDetectorTop_power_routed.rpt -pb SequenceDetectorTop_power_summary_routed.pb -rpx SequenceDetectorTop_power_routed.rpx
 | Design           : SequenceDetectorTop
@@ -53,8 +53,8 @@ Table of Contents
 | On-Chip      | Power (W) | Used     | Available | Utilization (%) |
 +--------------+-----------+----------+-----------+-----------------+
 | Clocks       |     0.000 |        3 |       --- |             --- |
-| Slice Logic  |     0.000 |        1 |       --- |             --- |
-|   Others     |     0.000 |        1 |       --- |             --- |
+| Slice Logic  |     0.000 |        2 |       --- |             --- |
+|   Others     |     0.000 |        2 |       --- |             --- |
 | I/O          |     0.000 |        4 |       210 |            1.90 |
 | Static Power |     0.084 |          |           |                 |
 | Total        |     0.084 |          |           |                 |

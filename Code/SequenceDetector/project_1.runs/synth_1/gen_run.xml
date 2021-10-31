@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1635655006">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1635721166">
   <File Type="PA-TCL" Name="SequenceDetectorTop.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="SequenceDetectorTop_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="SequenceDetectorTop_reports.tcl"/>
