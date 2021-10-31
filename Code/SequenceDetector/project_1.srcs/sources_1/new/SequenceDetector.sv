@@ -27,7 +27,8 @@ module SequenceDetector(input wire logic clk,
                         output var logic Z, 
                         output var logic [2:0] Q);
     //Enum for Moore states              
-    typedef enum logic [2:0] {RESET, Next} moore_states_t; 
+    typedef enum logic [2:0] {RESET, ZERO, ONE, TWO, 
+                              THREE, FOUR, FIVE, FOUND } moore_states_t; 
     moore_states_t current_state, next_state; 
                     
     //Current State logic -- Sequential   
