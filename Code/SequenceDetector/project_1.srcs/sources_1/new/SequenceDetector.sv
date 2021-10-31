@@ -20,7 +20,12 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module SequenceDetector(
-
-    );
+module SequenceDetector(input wire logic clk, 
+                        input wire logic reset, 
+                        input wire logic X, 
+                        input wire logic M, 
+                        output var logic Z, 
+                        output var logic [2:0] Q);
+assign Q = 3'b111; 
+assign Z = 1'b1; 
 endmodule
