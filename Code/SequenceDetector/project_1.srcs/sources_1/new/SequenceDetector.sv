@@ -1,6 +1,11 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-
+//Filename: SequenceDetector.sv 
+// Provides logic for a sequnce detector(non overlapping) via a MOORE FSM 
+// Detects sequence 010110
+//X - input 
+//Z - Ouput: Z ==1 if sequnece detected 
+//Q - Output: the current state of the FSM 
 //////////////////////////////////////////////////////////////////////////////////
 
 
