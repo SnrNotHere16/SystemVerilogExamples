@@ -7,7 +7,6 @@
 module SequenceDetector(input wire logic clk, 
                         input wire logic reset, 
                         input wire logic X, 
-                        input wire logic M, 
                         output var logic Z, 
                         output var logic [2:0] Q);
     //Enum for Moore states              
@@ -19,10 +18,13 @@ module SequenceDetector(input wire logic clk,
     always_ff @(posedge clk, posedge reset) begin 
         if (reset) begin 
             current_state <= RESET; 
+            Z <= 1'b0;
         end 
         
         else begin 
-            current_state <= next_state; 
+          //  current_state <= next_state; 
+            Z <= 1'b1; 
+           // Q <= current_state; 
         end  
     end 
     //Next State Decoder -- Combinational 
@@ -108,17 +110,34 @@ module SequenceDetector(input wire logic clk,
 //                      end
 //            endcase
 //    end 
-    always_comb begin 
-        case(current_state)
-            RESET: next_state = ZERO;
-            ZERO: next_state=(X)? ZERO: ONE; 
-            ONE: next_state=(X)? TWO: ONE;
-            TWO: next_state=(X)? ZERO: THREE; 
-            THREE: next_state=(X)? FOUR: ONE; 
-            FOUR: next_state=(X)? FIVE: THREE; 
-            FIVE: next_state=(X)? ZERO: FOUND; 
-            FOUND: next_state=(X)? ZERO: ONE; 
-            default:  next_state = ZERO; 
-         endcase
-    end 
+//    always_comb begin 
+//        case(current_state)
+//            RESET: next_state = ZERO;
+//            ZERO: next_state=(X)? ZERO: ONE; 
+//            ONE: next_state=(X)? TWO: ONE;
+//            TWO: next_state=(X)? ZERO: THREE; 
+//            THREE: next_state=(X)? FOUR: ONE; 
+//            FOUR: next_state=(X)? FIVE: THREE; 
+//            FIVE: next_state=(X)? ZERO: FOUND; 
+//            FOUND: next_state=(X)? ZERO: ONE; 
+//            default: next_state = ZERO; 
+//         endcase
+//    end 
+//    assign Z = current_state == FOUND;
+//    assign Q = current_state; 
+//     always_comb begin 
+//        case(current_state)
+//            RESET:begin {Q, Z} = 4'b111_0;
+//                         next_state = ZERO;
+//                  end 
+//            ZERO: next_state=(X)? ZERO: ONE; 
+//            ONE: next_state=(X)? TWO: ONE;
+//            TWO: next_state=(X)? ZERO: THREE; 
+//            THREE: next_state=(X)? FOUR: ONE; 
+//            FOUR: next_state=(X)? FIVE: THREE; 
+//            FIVE: next_state=(X)? ZERO: FOUND; 
+//            FOUND: next_state=(X)? ZERO: ONE; 
+//            default:  next_state = ZERO; 
+//         endcase
+//    end
 endmodule
