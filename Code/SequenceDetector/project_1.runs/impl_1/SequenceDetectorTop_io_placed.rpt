@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date                      : Sun Oct 31 17:46:31 2021
+| Date                      : Sun Oct 31 18:33:25 2021
 | Host                      : DESKTOP-NDOLUA7 running 64-bit major release  (build 9200)
 | Command                   : report_io -file SequenceDetectorTop_io_placed.rpt
 | Design                    : SequenceDetectorTop
@@ -338,8 +338,8 @@ Table of Contents
 | U13        |             | High Range | IO_L23N_T3_A02_D18_14        | User IO     |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | U14        |             | High Range | IO_L22P_T3_A05_D21_14        | User IO     |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | U15        |             | High Range | VCCO_14                      | VCCO        |             |      14 |            |      |                     |                      |    3.30 |            |           |          |      |                  |              |                   |              |
-| U16        | Q[2]        | High Range | IO_L18P_T2_A12_D28_14        | TRISTATE    | LVCMOS33    |      14 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
-| U17        | Q[1]        | High Range | IO_L17P_T2_A14_D30_14        | TRISTATE    | LVCMOS33    |      14 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
+| U16        | Q[2]        | High Range | IO_L18P_T2_A12_D28_14        | OUTPUT      | LVCMOS33    |      14 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
+| U17        | Q[1]        | High Range | IO_L17P_T2_A14_D30_14        | OUTPUT      | LVCMOS33    |      14 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | U18        |             | High Range | IO_L17N_T2_A13_D29_14        | User IO     |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | V1         |             | High Range | IO_L7N_T1_34                 | User IO     |             |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | V2         |             | High Range | IO_L9N_T1_DQS_34             | User IO     |             |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
@@ -357,7 +357,7 @@ Table of Contents
 | V14        |             | High Range | IO_L22N_T3_A04_D20_14        | User IO     |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | V15        |             | High Range | IO_L16P_T2_CSI_B_14          | User IO     |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | V16        |             | High Range | IO_L16N_T2_A15_D31_14        | User IO     |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
-| V17        | Q[0]        | High Range | IO_L18N_T2_A11_D27_14        | TRISTATE    | LVCMOS33    |      14 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
+| V17        | Q[0]        | High Range | IO_L18N_T2_A11_D27_14        | OUTPUT      | LVCMOS33    |      14 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | V18        |             | High Range | VCCO_14                      | VCCO        |             |      14 |            |      |                     |                      |    3.30 |            |           |          |      |                  |              |                   |              |
 +------------+-------------+------------+------------------------------+-------------+-------------+---------+------------+------+---------------------+----------------------+---------+------------+-----------+----------+------+------------------+--------------+-------------------+--------------+
 * Default value
