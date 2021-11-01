@@ -20,6 +20,6 @@ module SequenceDetectorTop(
      wire clk_out, one_out; 
      Clk500Hz zero(.*);//dot star inferred name port connection
      OneShot one (.d_in(step),.clk_in(clk_out),.reset(reset),.d_out(one_out));
-    SequenceDetector two(.clk(one_out),.reset(reset), .X(X), .Z(Z), .Q(Q)); 
+    SequenceDetector two(.clk(one_out),.reset(reset), .*); 
                             
 endmodule
