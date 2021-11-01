@@ -1,22 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 10/29/2021 11:39:51 PM
-// Design Name: 
-// Module Name: SequenceDetectorTop
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Filename: SeqeunceDetectorTop.sv 
+// The top module for a sequnece detector 
+// clk - input clk 
+// step - input: the button to send a bit
+// X - input: the value to send 
+// Z - output: if the sequence is detected this is a one. 
+// Q - output: This value reflects what state the sequence detector is at.  
 //////////////////////////////////////////////////////////////////////////////////
 
 

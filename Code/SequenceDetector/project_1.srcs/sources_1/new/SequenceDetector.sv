@@ -6,6 +6,14 @@
 //X - input 
 //Z - Ouput: Z ==1 if sequnece detected 
 //Q - Output: the current state of the FSM 
+// States: 111 - RESET 
+//         000 -  ZERO
+//         001 - ONE 
+//         010 - TWO 
+//         011 - THREE 
+//         100 - FOUR 
+//         101 - FIVE 
+//         110 - FOUND 
 //////////////////////////////////////////////////////////////////////////////////
 
 
