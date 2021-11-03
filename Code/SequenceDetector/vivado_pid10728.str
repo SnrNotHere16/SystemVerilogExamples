@@ -1,0 +1,139 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 10728
+License: Customer
+
+Current time: 	Wed Nov 03 12:37:23 PDT 2021
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 150
+Available screens: 1
+Available disk space: 44 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	OAkun
+User home directory: C:/Users/OAkun
+User working directory: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/OAkun/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/OAkun/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/OAkun/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/vivado.log
+Vivado journal file location: 	C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/vivado.jou
+Engine tmp dir: 	C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/.Xil/Vivado-10728-DESKTOP-NDOLUA7
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	185 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 635 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\OAkun\Documents\GitHub\SystemVerilogExamples\Code\SequenceDetector\project_1.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 704 MB. GUI used memory: 52 MB. Current time: 11/3/21, 12:37:25 PM PDT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 76 MB (+77165kb) [00:00:17]
+// [Engine Memory]: 781 MB (+667351kb) [00:00:17]
+// [GUI Memory]: 89 MB (+10145kb) [00:00:17]
+// [GUI Memory]: 97 MB (+3673kb) [00:00:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  3895 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 860.910 ; gain = 226.754 
+// [Engine Memory]: 841 MB (+22430kb) [00:00:20]
+// Project name: project_1; location: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector; part: xc7a100tcsg324-1
+// [GUI Memory]: 107 MB (+4439kb) [00:00:21]
+dismissDialog("Open Project"); // by (cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (SequenceDetectorTop.sv) elapsed time: 0.2s
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SequenceDetectorTop (SequenceDetectorTop.sv)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SequenceDetectorTop (SequenceDetectorTop.sv), zero : Clk500Hz (Clk500Hz.sv)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+// [GUI Memory]: 116 MB (+3843kb) [00:00:33]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SequenceDetectorTop (SequenceDetectorTop.sv), zero : Clk500Hz (Clk500Hz.sv)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SequenceDetectorTop (SequenceDetectorTop.sv), zero : Clk500Hz (Clk500Hz.sv)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SequenceDetectorTop (SequenceDetectorTop.sv), two : SequenceDetector (SequenceDetector.sv)]", 4, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SequenceDetectorTop (SequenceDetectorTop.sv), two : SequenceDetector (SequenceDetector.sv)]", 4, false, false, false, false, false, true); // B (F, cl) - Double Click
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1023 ms. Increasing delay to 3000 ms.
+// Elapsed time: 13 seconds
+selectCodeEditor("SequenceDetector.sv", 376, 208); // cl (w, cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("SequenceDetector.sv", 481, 220); // cl (w, cl)
+selectCodeEditor("SequenceDetector.sv", 435, 314); // cl (w, cl)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 33 seconds
+selectCodeEditor("SequenceDetector.sv", 348, 239); // cl (w, cl)
+selectCodeEditor("SequenceDetector.sv", 377, 207); // cl (w, cl)
+selectCodeEditor("SequenceDetector.sv", 528, 281); // cl (w, cl)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 123 MB (+1908kb) [00:02:12]

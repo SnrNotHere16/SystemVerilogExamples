@@ -2,10 +2,10 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sun Oct 31 16:31:23 2021
-# Process ID: 6184
+# Start of session at: Wed Nov  3 12:37:05 2021
+# Process ID: 10728
 # Current directory: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18824 C:\Users\OAkun\Documents\GitHub\SystemVerilogExamples\Code\SequenceDetector\project_1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16116 C:\Users\OAkun\Documents\GitHub\SystemVerilogExamples\Code\SequenceDetector\project_1.xpr
 # Log file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/vivado.log
 # Journal file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector\vivado.jou
 #-----------------------------------------------------------
@@ -16,84 +16,5 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
-open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 885.789 ; gain = 253.109
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 860.910 ; gain = 226.754
 update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Sun Oct 31 16:36:19 2021] Launched synth_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
-[Sun Oct 31 16:36:19 2021] Launched impl_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Sun Oct 31 16:40:27 2021] Launched synth_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
-[Sun Oct 31 16:40:27 2021] Launched impl_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Sun Oct 31 16:47:36 2021] Launched synth_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
-[Sun Oct 31 16:47:36 2021] Launched impl_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Sun Oct 31 16:48:08 2021] Launched synth_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
-[Sun Oct 31 16:48:08 2021] Launched impl_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Sun Oct 31 16:52:55 2021] Launched synth_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
-[Sun Oct 31 16:52:55 2021] Launched impl_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Sun Oct 31 16:55:22 2021] Launched synth_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
-[Sun Oct 31 16:55:22 2021] Launched impl_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Sun Oct 31 16:57:40 2021] Launched synth_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
-[Sun Oct 31 16:57:40 2021] Launched impl_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Sun Oct 31 17:00:48 2021] Launched synth_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
-[Sun Oct 31 17:00:48 2021] Launched impl_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Sun Oct 31 17:03:19 2021] Launched synth_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
-[Sun Oct 31 17:03:19 2021] Launched impl_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Sun Oct 31 17:05:45 2021] Launched synth_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
-[Sun Oct 31 17:05:45 2021] Launched impl_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Sun Oct 31 17:13:59 2021] Launched synth_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
-[Sun Oct 31 17:13:59 2021] Launched impl_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
-update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Sun Oct 31 17:41:33 2021] Launched synth_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
-[Sun Oct 31 17:41:33 2021] Launched impl_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Sun Oct 31 17:45:16 2021] Launched synth_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/runme.log
-[Sun Oct 31 17:45:16 2021] Launched impl_1...
-Run output will be captured here: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/impl_1/runme.log

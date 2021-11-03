@@ -30,7 +30,7 @@ module SequenceDetector(input wire logic clk,
     //Current State logic -- Sequential   
     always_ff @(posedge clk, posedge reset) begin 
         if (reset) begin 
-            current_state <= RESET; 
+            current_state <= current_state.first(); 
         end 
         
         else begin 
