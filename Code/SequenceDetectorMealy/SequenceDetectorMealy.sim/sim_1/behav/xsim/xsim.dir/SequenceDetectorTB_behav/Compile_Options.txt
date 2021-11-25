@@ -1,0 +1,1 @@
+-wto "c88898a9712e4d47b0831c0f303673f3" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "SequenceDetectorTB_behav" "xil_defaultlib.SequenceDetectorTB" "xil_defaultlib.glbl" -log "elaborate.log" 

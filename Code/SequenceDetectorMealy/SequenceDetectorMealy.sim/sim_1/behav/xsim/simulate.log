@@ -1,0 +1,3 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+$finish called at time : 38125055 ns : File "C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv" Line 57
