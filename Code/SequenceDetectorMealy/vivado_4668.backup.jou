@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Nov 24 20:14:27 2021
+# Process ID: 4668
+# Current directory: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11508 C:\Users\OAkun\Documents\GitHub\SystemVerilogExamples\Code\SequenceDetectorMealy\SequenceDetectorMealy.xpr
+# Log file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/vivado.log
+# Journal file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+file mkdir C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/constrs_1
+file mkdir C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/constrs_1/new
+close [ open C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/constrs_1/new/NEXYS4DDR.xdc w ]
+add_files -fileset constrs_1 C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/constrs_1/new/NEXYS4DDR.xdc
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210292A8AD8EA]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210292A8AD8EA]
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.runs/impl_1/SequenceDetectorTop.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.runs/impl_1/SequenceDetectorTop.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
