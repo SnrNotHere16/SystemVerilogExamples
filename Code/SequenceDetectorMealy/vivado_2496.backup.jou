@@ -1,0 +1,447 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 25 11:12:51 2021
+# Process ID: 2496
+# Current directory: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9872 C:\Users\OAkun\Documents\GitHub\SystemVerilogExamples\Code\SequenceDetectorMealy\SequenceDetectorMealy.xpr
+# Log file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/vivado.log
+# Journal file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv w ]
+add_files -fileset sim_1 C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top SequenceDetectorTB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source SequenceDetectorTB.tcl
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+restart
+run all
+run all
+run all
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+restart
+run all
+restart
+run all
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+source SequenceDetectorTB.tcl
+restart
+run all
+restart
+run all
+save_wave_config {C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+set_property xsim.view C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+restart
+run all
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+run all
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run all
+close_sim

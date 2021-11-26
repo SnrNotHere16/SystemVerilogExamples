@@ -2,18 +2,50 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Thu Nov 25 11:12:51 2021
-# Process ID: 2496
+# Start of session at: Fri Nov 26 11:56:00 2021
+# Process ID: 17332
 # Current directory: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9872 C:\Users\OAkun\Documents\GitHub\SystemVerilogExamples\Code\SequenceDetectorMealy\SequenceDetectorMealy.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent500 C:\Users\OAkun\Documents\GitHub\SystemVerilogExamples\Code\SequenceDetectorMealy\SequenceDetectorMealy.xpr
 # Log file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/vivado.log
 # Journal file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.xpr
 update_compile_order -fileset sources_1
-file mkdir C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-close [ open C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv w ]
-add_files -fileset sim_1 C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv
-update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+add_bp {C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv} 23
+restart
+run all
+run 50000 ns
+run 50000 ns
+run 50000 ns
+run 50000 ns
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run 50000 ns
+run 50000 ns
+run 50000 ns
+run 50000 ns
+run 50000 ns
+run 50000 ns
+close_sim
+launch_simulation
+open_wave_config C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorTB_behav.wcfg
+source SequenceDetectorTB.tcl
+run 50000 ns
+run 50000 ns
+run 50000 ns
+run 50000 ns
+run 50000 ns
+run 50000 ns
+run 50000 ns
+remove_bps -file {C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv} -line 23
+close_sim

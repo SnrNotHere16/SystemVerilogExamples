@@ -1,3 +1,9 @@
 Vivado Simulator 2019.1
 Time resolution is 1 ps
-$finish called at time : 38000055 ns : File "C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv" Line 59
+Stopped at time : 145 ns : File "C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv" Line 23
+Stopped at time : 150 ns : File "C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv" Line 23
+Stopped at time : 160 ns : File "C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv" Line 23
+Stopped at time : 170 ns : File "C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv" Line 23
+Stopped at time : 180 ns : File "C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv" Line 23
+Stopped at time : 190 ns : File "C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv" Line 23
+$finish called at time : 200 ns : File "C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorMealy/SequenceDetectorMealy.srcs/sim_1/new/SequenceDetectorTB.sv" Line 39
