@@ -9,6 +9,8 @@ module SequenceDetectorTB();
         wire Z; 
         wire [2:0] Q;
         const logic [4:0] seq = 5'b010110; 
+        parameter step_on = 1800000;
+        parameter step_off = 200001;
         task apply_reset();
             repeat (5) @(posedge clk) begin 
                 reset <= 1'b1;
@@ -27,11 +29,11 @@ module SequenceDetectorTB();
 //                    X <= 1'b0;                 
 //                end 
 //            end 
-                   repeat (1800000) @(posedge clk) begin 
+                   repeat (step_on) @(posedge clk) begin 
                     step <= 1'b1; 
                     X <= 1'b0;
                     end  
-                   repeat (207500) @(posedge clk) begin 
+                   repeat (step_off) @(posedge clk) begin 
                     step <= 1'b0; 
                     X <= seq[0];
                     end  
@@ -39,7 +41,7 @@ module SequenceDetectorTB();
                     step <= 1'b1; 
                     X <= seq[0];
                     end  
-                    @ (posedge clk) X <= 1'b1; 
+
                     
         endtask 
         
