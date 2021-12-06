@@ -1,2 +1,6 @@
 Vivado Simulator 2019.1
 Time resolution is 1 ps
+Begin
+Begin
+Finished
+$finish called at time : 260000230 ns : File "C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sim_1/new/SequenceDetectorInterfaceTB.sv" Line 74
