@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Wed Nov  3 12:42:47 2021
+| Date         : Sun Dec  5 21:26:05 2021
 | Host         : DESKTOP-NDOLUA7 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file SequenceDetectorTop_timing_summary_routed.rpt -pb SequenceDetectorTop_timing_summary_routed.pb -rpx SequenceDetectorTop_timing_summary_routed.rpx -warn_on_violation
 | Design       : SequenceDetectorTop
@@ -55,27 +55,27 @@ Table of Contents
 --------------------
  There are 33 register/latch pins with no clock driven by root clock pin: clk (HIGH)
 
- There are 9 register/latch pins with no clock driven by root clock pin: one/q0_reg/Q (HIGH)
+ There are 9 register/latch pins with no clock driven by root clock pin: zero/one/q0_reg/Q (HIGH)
 
- There are 9 register/latch pins with no clock driven by root clock pin: one/q1_reg/Q (HIGH)
+ There are 9 register/latch pins with no clock driven by root clock pin: zero/one/q1_reg/Q (HIGH)
 
- There are 9 register/latch pins with no clock driven by root clock pin: one/q2_reg/Q (HIGH)
+ There are 9 register/latch pins with no clock driven by root clock pin: zero/one/q2_reg/Q (HIGH)
 
- There are 9 register/latch pins with no clock driven by root clock pin: one/q3_reg/Q (HIGH)
+ There are 9 register/latch pins with no clock driven by root clock pin: zero/one/q3_reg/Q (HIGH)
 
- There are 9 register/latch pins with no clock driven by root clock pin: one/q4_reg/Q (HIGH)
+ There are 9 register/latch pins with no clock driven by root clock pin: zero/one/q4_reg/Q (HIGH)
 
- There are 9 register/latch pins with no clock driven by root clock pin: one/q5_reg/Q (HIGH)
+ There are 9 register/latch pins with no clock driven by root clock pin: zero/one/q5_reg/Q (HIGH)
 
- There are 9 register/latch pins with no clock driven by root clock pin: one/q6_reg/Q (HIGH)
+ There are 9 register/latch pins with no clock driven by root clock pin: zero/one/q6_reg/Q (HIGH)
 
- There are 9 register/latch pins with no clock driven by root clock pin: one/q7_reg/Q (HIGH)
+ There are 9 register/latch pins with no clock driven by root clock pin: zero/one/q7_reg/Q (HIGH)
 
- There are 9 register/latch pins with no clock driven by root clock pin: one/q8_reg/Q (HIGH)
+ There are 9 register/latch pins with no clock driven by root clock pin: zero/one/q8_reg/Q (HIGH)
 
- There are 9 register/latch pins with no clock driven by root clock pin: one/q9_reg/Q (HIGH)
+ There are 9 register/latch pins with no clock driven by root clock pin: zero/one/q9_reg/Q (HIGH)
 
- There are 10 register/latch pins with no clock driven by root clock pin: zero/clk_out_reg/Q (HIGH)
+ There are 10 register/latch pins with no clock driven by root clock pin: zero/zero/clk_out_reg/Q (HIGH)
 
 
 2. checking constant_clock

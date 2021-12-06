@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date             : Wed Nov  3 12:42:47 2021
+| Date             : Sun Dec  5 21:26:05 2021
 | Host             : DESKTOP-NDOLUA7 running 64-bit major release  (build 9200)
 | Command          : report_power -file SequenceDetectorTop_power_routed.rpt -pb SequenceDetectorTop_power_summary_routed.pb -rpx SequenceDetectorTop_power_routed.rpx
 | Design           : SequenceDetectorTop
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.257        |
+| Total On-Chip Power (W)  | 1.264        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.156        |
+| Dynamic (W)              | 1.163        |
 | Device Static (W)        | 0.101        |
 | Effective TJA (C/W)      | 4.6          |
-| Max Ambient (C)          | 79.3         |
-| Junction Temperature (C) | 30.7         |
+| Max Ambient (C)          | 79.2         |
+| Junction Temperature (C) | 30.8         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,16 +52,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.163 |      120 |       --- |             --- |
-|   LUT as Logic |     0.120 |       50 |     63400 |            0.08 |
+| Slice Logic    |     0.174 |      120 |       --- |             --- |
+|   LUT as Logic |     0.131 |       50 |     63400 |            0.08 |
 |   CARRY4       |     0.019 |        8 |     15850 |            0.05 |
 |   Register     |     0.018 |       52 |    126800 |            0.04 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |        5 |       --- |             --- |
-| Signals        |     0.203 |      111 |       --- |             --- |
+| Signals        |     0.199 |      111 |       --- |             --- |
 | I/O            |     0.790 |        8 |       210 |            3.81 |
 | Static Power   |     0.101 |          |           |                 |
-| Total          |     1.257 |          |           |                 |
+| Total          |     1.264 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,7 +71,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.397 |       0.378 |      0.018 |
+| Vccint    |       1.000 |     0.404 |       0.385 |      0.018 |
 | Vccaux    |       1.800 |     0.047 |       0.029 |      0.018 |
 | Vcco33    |       3.300 |     0.224 |       0.220 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -138,10 +138,11 @@ Table of Contents
 +---------------------+-----------+
 | Name                | Power (W) |
 +---------------------+-----------+
-| SequenceDetectorTop |     1.156 |
-|   one               |     0.031 |
-|   two               |     0.015 |
-|   zero              |     0.298 |
+| SequenceDetectorTop |     1.163 |
+|   one               |     0.013 |
+|   zero              |     0.337 |
+|     one             |     0.031 |
+|     zero            |     0.306 |
 +---------------------+-----------+
 
 

@@ -2,12 +2,12 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Wed Nov  3 12:40:23 2021
-# Process ID: 11864
-# Current directory: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1
+# Start of session at: Sun Dec  5 21:23:46 2021
+# Process ID: 12720
+# Current directory: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.runs/synth_1
 # Command line: vivado.exe -log SequenceDetectorTop.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SequenceDetectorTop.tcl
-# Log file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/SequenceDetectorTop.vds
-# Journal file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1\vivado.jou
+# Log file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.runs/synth_1/SequenceDetectorTop.vds
+# Journal file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source SequenceDetectorTop.tcl -notrace
 Command: synth_design -top SequenceDetectorTop -part xc7a100tcsg324-1
@@ -16,24 +16,30 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 9108 
+INFO: Helper process launched with PID 9980 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 846.699 ; gain = 178.762
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 845.512 ; gain = 178.406
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'SequenceDetectorTop' [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/sources_1/new/SequenceDetectorTop.sv:13]
-INFO: [Synth 8-6157] synthesizing module 'Clk500Hz' [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/sources_1/new/Clk500Hz.sv:7]
-INFO: [Synth 8-6155] done synthesizing module 'Clk500Hz' (1#1) [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/sources_1/new/Clk500Hz.sv:7]
-INFO: [Synth 8-6157] synthesizing module 'OneShot' [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/sources_1/new/OneShot.sv:7]
-INFO: [Synth 8-6155] done synthesizing module 'OneShot' (2#1) [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/sources_1/new/OneShot.sv:7]
-INFO: [Synth 8-6157] synthesizing module 'SequenceDetector' [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/sources_1/new/SequenceDetector.sv:20]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/sources_1/new/SequenceDetector.sv:42]
-INFO: [Synth 8-226] default block is never used [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/sources_1/new/SequenceDetector.sv:42]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/sources_1/new/SequenceDetector.sv:57]
-INFO: [Synth 8-226] default block is never used [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/sources_1/new/SequenceDetector.sv:57]
-INFO: [Synth 8-6155] done synthesizing module 'SequenceDetector' (3#1) [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/sources_1/new/SequenceDetector.sv:20]
-INFO: [Synth 8-6155] done synthesizing module 'SequenceDetectorTop' (4#1) [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/sources_1/new/SequenceDetectorTop.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'SequenceDetectorTop' [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/SequenceDetectorTop.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'Debounce_SequenceDet' [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/SequenceDetectorTop.sv:11]
+INFO: [Synth 8-6155] done synthesizing module 'Debounce_SequenceDet' (0#1) [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/SequenceDetectorTop.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'Debounce' [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/Debounce.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'Clk500Hz' [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/Clk500Hz.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'Clk500Hz' (1#1) [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/Clk500Hz.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'OneShot' [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/OneShot.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'OneShot' (2#1) [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/OneShot.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'Debounce' (3#1) [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/Debounce.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'SequenceDetector' [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/SequenceDetector.sv:20]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/SequenceDetector.sv:41]
+INFO: [Synth 8-226] default block is never used [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/SequenceDetector.sv:41]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/SequenceDetector.sv:56]
+INFO: [Synth 8-226] default block is never used [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/SequenceDetector.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'SequenceDetector' (4#1) [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/SequenceDetector.sv:20]
+INFO: [Synth 8-6155] done synthesizing module 'SequenceDetectorTop' (5#1) [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/SequenceDetectorTop.sv:17]
+WARNING: [Synth 8-3331] design SequenceDetector has unconnected port sd\.clk
+WARNING: [Synth 8-3331] design SequenceDetector has unconnected port sd\.step
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 910.102 ; gain = 242.164
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 909.207 ; gain = 242.102
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -46,41 +52,41 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 910.102 ; gain = 242.164
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 909.207 ; gain = 242.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 910.102 ; gain = 242.164
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 909.207 ; gain = 242.102
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/constrs_1/new/NEXYS4DDR.xdc]
-Finished Parsing XDC File [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/constrs_1/new/NEXYS4DDR.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/constrs_1/new/NEXYS4DDR.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SequenceDetectorTop_propImpl.xdc].
+Parsing XDC File [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/constrs_1/new/NEXYS4DDR.xdc]
+Finished Parsing XDC File [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/constrs_1/new/NEXYS4DDR.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/constrs_1/new/NEXYS4DDR.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SequenceDetectorTop_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/SequenceDetectorTop_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1001.090 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1004.785 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1001.090 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1004.785 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1001.090 ; gain = 333.152
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1004.785 ; gain = 337.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1001.090 ; gain = 333.152
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1004.785 ; gain = 337.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1001.090 ; gain = 333.152
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1004.785 ; gain = 337.680
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'SequenceDetector'
 INFO: [Synth 8-5544] ROM "Q" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
@@ -98,7 +104,7 @@ INFO: [Synth 8-5544] ROM "Q" won't be mapped to Block RAM because address size (
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'SequenceDetector'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 1001.090 ; gain = 333.152
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1004.785 ; gain = 337.680
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -165,7 +171,7 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 1001.090 ; gain = 333.152
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1004.785 ; gain = 337.680
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -177,13 +183,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1003.543 ; gain = 335.605
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1004.785 ; gain = 337.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1003.691 ; gain = 335.754
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1004.785 ; gain = 337.680
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -195,7 +201,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1023.492 ; gain = 355.555
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1024.121 ; gain = 357.016
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -219,7 +225,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1029.281 ; gain = 361.344
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1029.910 ; gain = 362.805
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -232,7 +238,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1029.281 ; gain = 361.344
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1029.910 ; gain = 362.805
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -244,25 +250,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1029.281 ; gain = 361.344
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1029.910 ; gain = 362.805
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1029.281 ; gain = 361.344
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1029.910 ; gain = 362.805
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1029.281 ; gain = 361.344
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1029.910 ; gain = 362.805
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1029.281 ; gain = 361.344
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1029.910 ; gain = 362.805
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -297,32 +303,33 @@ Report Instance Areas:
 |      |Instance |Module           |Cells |
 +------+---------+-----------------+------+
 |1     |top      |                 |   122|
-|2     |  one    |OneShot          |    12|
-|3     |  two    |SequenceDetector |    18|
-|4     |  zero   |Clk500Hz         |    83|
+|2     |  one    |SequenceDetector |    18|
+|3     |  zero   |Debounce         |    95|
+|4     |    one  |OneShot          |    12|
+|5     |    zero |Clk500Hz         |    83|
 +------+---------+-----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1029.281 ; gain = 361.344
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1029.910 ; gain = 362.805
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1029.281 ; gain = 270.355
-Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 1029.281 ; gain = 361.344
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1029.910 ; gain = 267.227
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1029.910 ; gain = 362.805
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1050.762 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1053.758 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-27 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+31 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1050.762 ; gain = 653.109
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1050.762 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 1053.758 ; gain = 656.324
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1053.758 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/SequenceDetectorTop.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.runs/synth_1/SequenceDetectorTop.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file SequenceDetectorTop_utilization_synth.rpt -pb SequenceDetectorTop_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Nov  3 12:41:14 2021...
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  5 21:24:27 2021...

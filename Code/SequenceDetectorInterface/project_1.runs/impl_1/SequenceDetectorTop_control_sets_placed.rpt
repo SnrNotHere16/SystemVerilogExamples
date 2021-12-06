@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Wed Nov  3 12:42:09 2021
+| Date         : Sun Dec  5 21:25:27 2021
 | Host         : DESKTOP-NDOLUA7 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file SequenceDetectorTop_control_sets_placed.rpt
 | Design       : SequenceDetectorTop
@@ -70,13 +70,13 @@ Table of Contents
 4. Detailed Control Set Information
 -----------------------------------
 
-+----------------+---------------+------------------+------------------+----------------+
-|  Clock Signal  | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
-+----------------+---------------+------------------+------------------+----------------+
-|  clk_IBUF_BUFG |               | reset_IBUF       |                1 |              1 |
-|  one/CLK       |               | reset_IBUF       |                2 |              9 |
-|  zero/clk_out  |               | reset_IBUF       |                3 |             10 |
-|  clk_IBUF_BUFG | zero/i_1      | reset_IBUF       |               14 |             32 |
-+----------------+---------------+------------------+------------------+----------------+
++--------------------+---------------+------------------+------------------+----------------+
+|    Clock Signal    | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
++--------------------+---------------+------------------+------------------+----------------+
+|  clk_IBUF_BUFG     |               | reset_IBUF       |                1 |              1 |
+|  zero/one/q7_reg_0 |               | reset_IBUF       |                2 |              9 |
+|  zero/zero/clk_out |               | reset_IBUF       |                3 |             10 |
+|  clk_IBUF_BUFG     | zero/zero/i_1 | reset_IBUF       |               14 |             32 |
++--------------------+---------------+------------------+------------------+----------------+
 
 

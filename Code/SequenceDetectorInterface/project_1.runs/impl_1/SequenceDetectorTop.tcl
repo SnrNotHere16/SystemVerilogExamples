@@ -71,12 +71,12 @@ set rc [catch {
   set_property board_part digilentinc.com:nexys4_ddr:part0:1.1 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.cache/wt [current_project]
-  set_property parent.project_path C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.xpr [current_project]
-  set_property ip_output_repo C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.cache/wt [current_project]
+  set_property parent.project_path C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.xpr [current_project]
+  set_property ip_output_repo C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.runs/synth_1/SequenceDetectorTop.dcp
-  read_xdc C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.srcs/constrs_1/new/NEXYS4DDR.xdc
+  add_files -quiet C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.runs/synth_1/SequenceDetectorTop.dcp
+  read_xdc C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/constrs_1/new/NEXYS4DDR.xdc
   link_design -top SequenceDetectorTop -part xc7a100tcsg324-1
   close_msg_db -file init_design.pb
 } RESULT]
