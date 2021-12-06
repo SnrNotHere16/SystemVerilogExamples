@@ -17,8 +17,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module SequenceDetector(input wire logic clk, 
-                        input wire logic reset, 
+module SequenceDetector(Debounce_SequenceDet sd, 
                         input wire logic X, 
                         output var logic Z, 
                         output var logic [2:0] Q);
@@ -28,8 +27,8 @@ module SequenceDetector(input wire logic clk,
     moore_states_t current_state, next_state; 
                     
     //Current State logic -- Sequential   
-    always_ff @(posedge clk, posedge reset) begin 
-        if (reset) begin 
+    always_ff @(posedge sd.one_out, posedge sd.reset) begin 
+        if (sd.reset) begin 
             current_state <= current_state.first(); 
         end 
         

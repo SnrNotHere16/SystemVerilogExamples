@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sim_1/new/SequenceDetectorInterfaceTB.sv,1638766031,systemVerilog,,,,SequenceDetectorInterfaceTB,,,,,,,,
+C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/Clk500Hz.sv,1634519224,systemVerilog,,C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/Debounce.sv,,Clk500Hz,,,,,,,,
+C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/Debounce.sv,1638764978,systemVerilog,,C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/OneShot.sv,,Debounce,,,,,,,,
+C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/OneShot.sv,1634520291,systemVerilog,,C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/SequenceDetector.sv,,OneShot,,,,,,,,
+C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/SequenceDetector.sv,1638765403,systemVerilog,,C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/SequenceDetectorTop.sv,,SequenceDetector,,,,,,,,
+C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sources_1/new/SequenceDetectorTop.sv,1638766119,systemVerilog,,C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetectorInterface/project_1.srcs/sim_1/new/SequenceDetectorInterfaceTB.sv,,Debounce_SequenceDet;SequenceDetectorTop,,,,,,,,

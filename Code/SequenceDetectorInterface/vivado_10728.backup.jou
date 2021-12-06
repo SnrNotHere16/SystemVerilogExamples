@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Nov  3 12:37:05 2021
+# Process ID: 10728
+# Current directory: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16116 C:\Users\OAkun\Documents\GitHub\SystemVerilogExamples\Code\SequenceDetector\project_1.xpr
+# Log file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/vivado.log
+# Journal file: C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/OAkun/Documents/GitHub/SystemVerilogExamples/Code/SequenceDetector/project_1.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

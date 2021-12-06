@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/Clk500Hz.sv" \
+"../../../../project_1.srcs/sources_1/new/Debounce.sv" \
+"../../../../project_1.srcs/sources_1/new/OneShot.sv" \
+"../../../../project_1.srcs/sources_1/new/SequenceDetector.sv" \
+"../../../../project_1.srcs/sources_1/new/SequenceDetectorTop.sv" \
+"../../../../project_1.srcs/sim_1/new/SequenceDetectorInterfaceTB.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
