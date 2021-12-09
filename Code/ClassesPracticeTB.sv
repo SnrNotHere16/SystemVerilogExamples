@@ -1,6 +1,43 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // File: ClassesPracticeTB.sv
+//Output
+//START
+//ID:      0
+//Name:alpha
+//weight:    10lb
+//Location: North America, USA
+//colors:
+//Brown
+//ID:      1
+//Name:beta
+//weight:    20lb
+//Location: South America, Brazil
+//colors:
+//Brown
+//ID:      2
+//Name:Gamma
+//weight:     2lb
+//Location: Africa, Egypt
+//colors:
+//Brown
+//wingspan:   4ft
+//flight: 1
+//parent
+//virtual child function
+//child
+//virtual child function
+//parent
+//virtual step child function
+//virtual step child function
+//parent
+//Amount of animals registered:       3
+//Changed original.num = 4: original.num:           4  assignp.num:           4
+//Changed assignp.num = 45: original.num:          45  assignp.num:          45
+//original.num = 45: original.num:          45  assignp.num:          45 shallowcopy.num:          45
+//Changed original.num = 14: original.num:          14  assignp.num:          14 shallowcopy.num:          45
+//Changed shallowcopy.num = 21: original.num:          14  assignp.num:          14 shallowcopy.num:          21
+//FINISH
 //////////////////////////////////////////////////////////////////////////////////
 
 

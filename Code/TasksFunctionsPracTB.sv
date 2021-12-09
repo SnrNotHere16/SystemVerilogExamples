@@ -1,6 +1,89 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: TasksFunctionsPracTB.sv
+//Output 
+//darray[          0]: 1
+//darray[          1]: 0
+//darray[          2]: 0
+
+
+
+//queue[          0]: 0
+//queue[          1]: 1
+//queue[          2]: 0
+//queue[          3]: 1
+//queue[          4]: 0
+//queue[          5]: 1
+//queue[          6]: 0
+//queue[          7]: 1
+//queue[          8]: 0
+//queue[          9]: 1
+//queue[         10]: 0
+
+
+
+//queue[          0]: 1
+//queue[          1]: 1
+//queue[          2]: 1
+//queue[          3]: 1
+//queue[          4]: 1
+//queue[          5]: 1
+//queue[          6]: 1
+//queue[          7]: 1
+//queue[          8]: 1
+//queue[          9]: 1
+//queue[         10]: 1
+
+
+
+//darray size:           3 before increment
+//darray size:           4 after increment
+
+
+//darray[          0]: 1
+//darray[          1]: 0
+//darray[          2]: 0
+//darray[          3]: 1
+
+
+
+//assoarray size:           4 before increment
+//assoarray size:           5 after increment
+
+
+//assoarray[FOUR]: 1
+//assoarray[ONE]: 0
+//assoarray[THREE]: 0
+//assoarray[TWO]: 1
+//assoarray[ZERO]: 1
+
+
+
+//static increment: input:           1 ainfunc:          1 sinfunc:           1
+
+
+
+//static increment: input:           1 ainfunc:          1 sinfunc:           2
+
+
+
+//auto increment: input:           1 ainfunc:          1 sinfunc:           1
+
+
+
+//auto increment: input:           1 ainfunc:          1 sinfunc:           2
+
+
+
+//A: 14 B:  0 C:  0
+
+
+
+//log2(16) =           4
+
+
+//Deleting arrays
+//Finished
 //////////////////////////////////////////////////////////////////////////////////
 
 
