@@ -1,3 +1,123 @@
+//////////////////////////////////////////////////////////////////////////////////
+// File: FunctionalCoverageTB4.sv
+// Output: 
+// # do run.do
+//# Begin
+//# Coverage Report by instance with details
+//# 
+//# =================================================================================
+//# === Instance: /FunctionalCoverageTB4
+//# === Design Unit: work.FunctionalCoverageTB4
+//# =================================================================================
+//# 
+//# Covergroup Coverage:
+//#     Covergroups                      1        na        na    73.07%
+//#         Coverpoints/Crosses          2        na        na        na
+//#             Covergroup Bins         17        10         7    58.82%
+//# ----------------------------------------------------------------------------------------------------------
+//# Covergroup                                             Metric       Goal       Bins    Status               
+//#                                                                                                          
+//# ----------------------------------------------------------------------------------------------------------
+//#  TYPE /FunctionalCoverageTB4/a_c                       73.07%        100          -    Uncovered            
+//#     covered/total bins:                                    10         17          -                      
+//#     missing/total bins:                                     7         17          -                      
+//#     % Hit:                                             58.82%        100          -                      
+//#     Coverpoint a_1                                     46.15%        100          -    Uncovered            
+//#         covered/total bins:                                 6         13          -                      
+//#         missing/total bins:                                 7         13          -                      
+//#         % Hit:                                         46.15%        100          -                      
+//#     Coverpoint c_1                                    100.00%        100          -    Covered              
+//#         covered/total bins:                                 4          4          -                      
+//#         missing/total bins:                                 0          4          -                      
+//#         % Hit:                                        100.00%        100          -                      
+//#  Covergroup instance \/FunctionalCoverageTB4/a_c_i  
+//#                                                        73.07%        100          -    Uncovered            
+//#     covered/total bins:                                    10         17          -                      
+//#     missing/total bins:                                     7         17          -                      
+//#     % Hit:                                             58.82%        100          -                      
+//#     Coverpoint a_1                                     46.15%        100          -    Uncovered            
+//#         covered/total bins:                                 6         13          -                      
+//#         missing/total bins:                                 7         13          -                      
+//#         % Hit:                                         46.15%        100          -                      
+//#         bin a0                                              1          1          -    Covered              
+//#         bin a1[0]                                           1          1          -    Covered              
+//#         bin a1[1]                                           1          1          -    Covered              
+//#         bin a1[2]                                           3          1          -    Covered              
+//#         bin a2[8]                                           0          1          -    ZERO                 
+//#         bin a2[9]                                           0          1          -    ZERO                 
+//#         bin a2[10]                                          0          1          -    ZERO                 
+//#         bin a2[11]                                          0          1          -    ZERO                 
+//#         bin a2[12]                                          0          1          -    ZERO                 
+//#         bin a2[13]                                          0          1          -    ZERO                 
+//#         bin a2[14]                                          0          1          -    ZERO                 
+//#         bin a3[0]                                           2          1          -    Covered              
+//#         bin a3[1]                                           2          1          -    Covered              
+//#         default bin a4                                      6                     -    Occurred             
+//#     Coverpoint c_1                                    100.00%        100          -    Covered              
+//#         covered/total bins:                                 4          4          -                      
+//#         missing/total bins:                                 0          4          -                      
+//#         % Hit:                                        100.00%        100          -                      
+//#         bin c0                                              1          1          -    Covered              
+//#         bin c1[0]                                           1          1          -    Covered              
+//#         bin c1[1]                                           1          1          -    Covered              
+//#         bin c1[2]                                           1          1          -    Covered              
+//#         default bin c2                                     12                     -    Occurred             
+//# 
+//# COVERGROUP COVERAGE:
+//# ----------------------------------------------------------------------------------------------------------
+//# Covergroup                                             Metric       Goal       Bins    Status               
+//#                                                                                                          
+//# ----------------------------------------------------------------------------------------------------------
+//#  TYPE /FunctionalCoverageTB4/a_c                       73.07%        100          -    Uncovered            
+//#     covered/total bins:                                    10         17          -                      
+//#     missing/total bins:                                     7         17          -                      
+//#     % Hit:                                             58.82%        100          -                      
+//#     Coverpoint a_1                                     46.15%        100          -    Uncovered            
+//#         covered/total bins:                                 6         13          -                      
+//#         missing/total bins:                                 7         13          -                      
+//#         % Hit:                                         46.15%        100          -                      
+//#     Coverpoint c_1                                    100.00%        100          -    Covered              
+//#         covered/total bins:                                 4          4          -                      
+//#         missing/total bins:                                 0          4          -                      
+//#         % Hit:                                        100.00%        100          -                      
+//#  Covergroup instance \/FunctionalCoverageTB4/a_c_i  
+//#                                                        73.07%        100          -    Uncovered            
+//#     covered/total bins:                                    10         17          -                      
+//#     missing/total bins:                                     7         17          -                      
+//#     % Hit:                                             58.82%        100          -                      
+//#     Coverpoint a_1                                     46.15%        100          -    Uncovered            
+//#         covered/total bins:                                 6         13          -                      
+//#         missing/total bins:                                 7         13          -                      
+//#         % Hit:                                         46.15%        100          -                      
+//#         bin a0                                              1          1          -    Covered              
+//#         bin a1[0]                                           1          1          -    Covered              
+//#         bin a1[1]                                           1          1          -    Covered              
+//#         bin a1[2]                                           3          1          -    Covered              
+//#         bin a2[8]                                           0          1          -    ZERO                 
+//#         bin a2[9]                                           0          1          -    ZERO                 
+//#         bin a2[10]                                          0          1          -    ZERO                 
+//#         bin a2[11]                                          0          1          -    ZERO                 
+//#         bin a2[12]                                          0          1          -    ZERO                 
+//#         bin a2[13]                                          0          1          -    ZERO                 
+//#         bin a2[14]                                          0          1          -    ZERO                 
+//#         bin a3[0]                                           2          1          -    Covered              
+//#         bin a3[1]                                           2          1          -    Covered              
+//#         default bin a4                                      6                     -    Occurred             
+//#     Coverpoint c_1                                    100.00%        100          -    Covered              
+//#         covered/total bins:                                 4          4          -                      
+//#         missing/total bins:                                 0          4          -                      
+//#         % Hit:                                        100.00%        100          -                      
+//#         bin c0                                              1          1          -    Covered              
+//#         bin c1[0]                                           1          1          -    Covered              
+//#         bin c1[1]                                           1          1          -    Covered              
+//#         bin c1[2]                                           1          1          -    Covered              
+//#         default bin c2                                     12                     -    Occurred             
+//# 
+//# TOTAL COVERGROUP COVERAGE: 73.07%  COVERGROUP TYPES: 1
+//# 
+//# Total Coverage By Instance (filtered view): 73.07%
+//////////////////////////////////////////////////////////////////////////////////
+
 module FunctionalCoverageTB4();  
 	logic [4:0] a,b; 
 	logic [3:0] c,d; 
