@@ -8,7 +8,7 @@ module FunctionalCoverageTB4();
           	bins a0 = {0,1,2}; //a0 1 bin
           	bins a1 [3] = {3,4,[5:7]}; //a1 3 bins: {3,4, [5:7]}
           	bins a2 [] = {8,9, 10, [11:14]}; //a2 7 bins 
-          bins a3 [2] = {[15:19]}; //a3 2 bins:  (15,16), (17,18,19)
+            bins a3 [2] = {[15:19]}; //a3 2 bins:  (15,16), (17,18,19)
 			bins a4 = default; 
 		} 
      	
@@ -27,6 +27,7 @@ module FunctionalCoverageTB4();
         a++; 
         a_c_i.sample(); 
       end 
+      //The default bins - a3[0] - 2, a3[1] - 2
       a = 15; 
       a_c_i.sample(); 
       a = 16; 
@@ -35,6 +36,10 @@ module FunctionalCoverageTB4();
       a_c_i.sample(); 
 	  a = 18; 
       a_c_i.sample(); 
+      //The default bins - 2 
+      a = 25; 
+      a_c_i.sample(); 
+      a_c_i.sample();
     endtask 
   
 	a_c a_c_i = new(); 
