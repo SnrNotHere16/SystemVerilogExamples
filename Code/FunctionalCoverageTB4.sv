@@ -14,6 +14,8 @@ module FunctionalCoverageTB4();
      	
       c_1: coverpoint c {
         bins c0 = {[0:5]};
+        bins c1 [3] = {[9:13]};
+        bins c2 = default; 
         
       } 
 	endgroup: a_c
@@ -40,12 +42,27 @@ module FunctionalCoverageTB4();
       a = 25; 
       a_c_i.sample(); 
       a_c_i.sample();
-    endtask 
+    endtask: a_bins  
   
+ 	task c_bins(); 
+    	c = 0; 
+      	a_c_i.sample();
+      	c = 9; 
+      	a_c_i.sample();
+      	c = 10; 
+        a_c_i.sample();
+      	c = 11; 
+        a_c_i.sample();
+      	c = 6;
+      	a_c_i.sample();
+        c = 15; 
+        a_c_i.sample();
+    endtask: c_bins    
 	a_c a_c_i = new(); 
 	initial begin 
 		$display("Begin"); 
       	a_bins; 
+      	c_bins; 
 	end 
 
 
