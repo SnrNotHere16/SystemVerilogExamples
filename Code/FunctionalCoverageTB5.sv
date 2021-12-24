@@ -22,10 +22,11 @@ module FunctionalCoverageTB5();
   	
   	covergroup b_d_b @(posedge clk); 
       	b1: coverpoint b {
-          bins b0 = (0 => 1);
-          bins b1 = (0 => 1 => 2);
-          bins b2 = (0 =>2),(2 => 1);
-          bins b3 [] = (1 => 3), (1 =>4), (1=>5);}
+          bins b0 = (0 => 1); //1 bin
+          bins b1 = (0 => 1 => 2); // 1 bin 
+          bins b2 = (0 =>2),(2 => 1); // 1 bin or 
+          bins b3 [] = (1 => 3), (1 =>4), (1=>5); // 3 bins 
+          bins b4 = (6,7 => 8,9);//1 bin, 4 combinations } 
     endgroup: b_d_b
 
 	
@@ -73,6 +74,16 @@ module FunctionalCoverageTB5();
       @(posedge clk) b <= 4;
       @(posedge clk) b <= 1; 
       @(posedge clk) b <= 5;
+      @(posedge clk) b <= b; 
+      //bins b4 
+      @(posedge clk) b <= 6; 
+      @(posedge clk) b <= 8;
+      @(posedge clk) b <= 6; 
+      @(posedge clk) b <= 9; 
+      @(posedge clk) b <= 7; 
+      @(posedge clk) b <= 8; 
+      @(posedge clk) b <= 7; 
+      @(posedge clk) b <= 9; 
       @(posedge clk) b <= b; 
       
     endtask: b_bins 
