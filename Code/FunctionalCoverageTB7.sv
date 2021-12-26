@@ -1,6 +1,7 @@
 module FunctionalCoverageTB7(); 
 	logic clk; 
   	logic rest; 
+  	logic reset; 
 	class coverPClass; 
 		logic [3:0] a,b; 
 		logic [2:0] c; 
@@ -9,6 +10,11 @@ module FunctionalCoverageTB7();
           	c1: coverpoint c; 
           	//aXc: cross a,c; 
         endgroup: a_c
+		
+      covergroup b_b; 
+          b1: coverpoint b iff (!reset);
+		
+		endgroup: b_b
 		
 		function new(); 
 			$display("coverPClass created\n");
