@@ -6,7 +6,8 @@ module FunctionalCoverageTB7();
 		logic [3:0] a,b; 
 		logic [2:0] c; 
 		covergroup a_c @(posedge clk);  
-        	a1: coverpoint a; 
+          a1: coverpoint a {
+            bins a1 [] = {[0:10]} with (item%3 == 0); } //divides the bins into only values that fufill the statement
           	c1: coverpoint c; 
           	//aXc: cross a,c; 
         endgroup: a_c
