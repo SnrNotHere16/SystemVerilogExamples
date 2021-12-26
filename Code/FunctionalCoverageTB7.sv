@@ -1,3 +1,200 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// File: FunctionalCoverageTB3.sv
+// output: 
+
+//# coverPClass created
+//# 
+//# Begin
+//# ** Note: $stop    : testbench.sv(46)
+//#    Time: 125 ns  Iteration: 1  Instance: /FunctionalCoverageTB7
+//# Break in Module FunctionalCoverageTB7 at testbench.sv line 46
+//# Coverage Report by instance with details
+//# 
+//# =================================================================================
+//# === Instance: /FunctionalCoverageTB7
+//# === Design Unit: work.FunctionalCoverageTB7
+//# =================================================================================
+//# 
+//# Covergroup Coverage:
+//#     Covergroups                      2        na        na    10.00%
+//#         Coverpoints/Crosses          4        na        na        na
+//#             Covergroup Bins         42         4        38     9.52%
+//# ----------------------------------------------------------------------------------------------------------
+//# Covergroup                                             Metric       Goal       Bins    Status               
+//#                                                                                                          
+//# ----------------------------------------------------------------------------------------------------------
+//#  TYPE /FunctionalCoverageTB7/coverPClass/a_c           20.00%        100          -    Uncovered            
+//#     covered/total bins:                                     4         18          -                      
+//#     missing/total bins:                                    14         18          -                      
+//#     % Hit:                                             22.22%        100          -                      
+//#     Coverpoint a1                                      40.00%        100          -    Uncovered            
+//#         covered/total bins:                                 4         10          -                      
+//#         missing/total bins:                                 6         10          -                      
+//#         % Hit:                                         40.00%        100          -                      
+//#     Coverpoint c1                                       0.00%        100          -    ZERO                 
+//#         covered/total bins:                                 0          8          -                      
+//#         missing/total bins:                                 8          8          -                      
+//#         % Hit:                                          0.00%        100          -                      
+//#  Covergroup instance \/FunctionalCoverageTB7/coverPClass::a_c  
+//#                                                        20.00%        100          -    Uncovered            
+//#     covered/total bins:                                     4         18          -                      
+//#     missing/total bins:                                    14         18          -                      
+//#     % Hit:                                             22.22%        100          -                      
+//#     Coverpoint a1                                      40.00%        100          -    Uncovered            
+//#         covered/total bins:                                 4         10          -                      
+//#         missing/total bins:                                 6         10          -                      
+//#         % Hit:                                         40.00%        100          -                      
+//#         bin a0[0]                                           0          1          -    ZERO                 
+//#         bin a0[3]                                           4          1          -    Covered              
+//#         bin a0[6]                                           1          1          -    Covered              
+//#         bin a0[9]                                           0          1          -    ZERO                 
+//#         bin at0                                             2          1          -    Covered              
+//#         bin at1                                             0          1          -    ZERO                 
+//#         bin at2                                             4          1          -    Covered              
+//#         bin at3                                             0          1          -    ZERO                 
+//#         bin at4                                             0          1          -    ZERO                 
+//#         bin at5                                             0          1          -    ZERO                 
+//#     Coverpoint c1                                       0.00%        100          -    ZERO                 
+//#         covered/total bins:                                 0          8          -                      
+//#         missing/total bins:                                 8          8          -                      
+//#         % Hit:                                          0.00%        100          -                      
+//#         bin auto[0]                                         0          1          -    ZERO                 
+//#         bin auto[1]                                         0          1          -    ZERO                 
+//#         bin auto[2]                                         0          1          -    ZERO                 
+//#         bin auto[3]                                         0          1          -    ZERO                 
+//#         bin auto[4]                                         0          1          -    ZERO                 
+//#         bin auto[5]                                         0          1          -    ZERO                 
+//#         bin auto[6]                                         0          1          -    ZERO                 
+//#         bin auto[7]                                         0          1          -    ZERO                 
+//#  TYPE /FunctionalCoverageTB7/coverPClass/b_e_d          0.00%        100          -    ZERO                 
+//#     covered/total bins:                                     0         24          -                      
+//#     missing/total bins:                                    24         24          -                      
+//#     % Hit:                                              0.00%        100          -                      
+//#     Coverpoint b1                                       0.00%        100          -    ZERO                 
+//#         covered/total bins:                                 0         16          -                      
+//#         missing/total bins:                                16         16          -                      
+//#         % Hit:                                          0.00%        100          -                      
+//#         bin auto[0]                                         0          1          -    ZERO                 
+//#         bin auto[1]                                         0          1          -    ZERO                 
+//#         bin auto[2]                                         0          1          -    ZERO                 
+//#         bin auto[3]                                         0          1          -    ZERO                 
+//#         bin auto[4]                                         0          1          -    ZERO                 
+//#         bin auto[5]                                         0          1          -    ZERO                 
+//#         bin auto[6]                                         0          1          -    ZERO                 
+//#         bin auto[7]                                         0          1          -    ZERO                 
+//#         bin auto[8]                                         0          1          -    ZERO                 
+//#         bin auto[9]                                         0          1          -    ZERO                 
+//#         bin auto[10]                                        0          1          -    ZERO                 
+//#         bin auto[11]                                        0          1          -    ZERO                 
+//#         bin auto[12]                                        0          1          -    ZERO                 
+//#         bin auto[13]                                        0          1          -    ZERO                 
+//#         bin auto[14]                                        0          1          -    ZERO                 
+//#         bin auto[15]                                        0          1          -    ZERO                 
+//#     Coverpoint dPe                                      0.00%        100          -    ZERO                 
+//#         covered/total bins:                                 0          8          -                      
+//#         missing/total bins:                                 8          8          -                      
+//#         % Hit:                                          0.00%        100          -                      
+//#         bin auto[0]                                         0          1          -    ZERO                 
+//#         bin auto[1]                                         0          1          -    ZERO                 
+//#         bin auto[2]                                         0          1          -    ZERO                 
+//#         bin auto[3]                                         0          1          -    ZERO                 
+//#         bin auto[4]                                         0          1          -    ZERO                 
+//#         bin auto[5]                                         0          1          -    ZERO                 
+//#         bin auto[6]                                         0          1          -    ZERO                 
+//#         bin auto[7]                                         0          1          -    ZERO                 
+//# 
+//# COVERGROUP COVERAGE:
+//# ----------------------------------------------------------------------------------------------------------
+//# Covergroup                                             Metric       Goal       Bins    Status               
+//#                                                                                                          
+//# ----------------------------------------------------------------------------------------------------------
+//#  TYPE /FunctionalCoverageTB7/coverPClass/a_c           20.00%        100          -    Uncovered            
+//#     covered/total bins:                                     4         18          -                      
+//#     missing/total bins:                                    14         18          -                      
+//#     % Hit:                                             22.22%        100          -                      
+//#     Coverpoint a1                                      40.00%        100          -    Uncovered            
+//#         covered/total bins:                                 4         10          -                      
+//#         missing/total bins:                                 6         10          -                      
+//#         % Hit:                                         40.00%        100          -                      
+//#     Coverpoint c1                                       0.00%        100          -    ZERO                 
+//#         covered/total bins:                                 0          8          -                      
+//#         missing/total bins:                                 8          8          -                      
+//#         % Hit:                                          0.00%        100          -                      
+//#  Covergroup instance \/FunctionalCoverageTB7/coverPClass::a_c  
+//#                                                        20.00%        100          -    Uncovered            
+//#     covered/total bins:                                     4         18          -                      
+//#     missing/total bins:                                    14         18          -                      
+//#     % Hit:                                             22.22%        100          -                      
+//#     Coverpoint a1                                      40.00%        100          -    Uncovered            
+//#         covered/total bins:                                 4         10          -                      
+//#         missing/total bins:                                 6         10          -                      
+//#         % Hit:                                         40.00%        100          -                      
+//#         bin a0[0]                                           0          1          -    ZERO                 
+//#         bin a0[3]                                           4          1          -    Covered              
+//#         bin a0[6]                                           1          1          -    Covered              
+//#         bin a0[9]                                           0          1          -    ZERO                 
+//#         bin at0                                             2          1          -    Covered              
+//#         bin at1                                             0          1          -    ZERO                 
+//#         bin at2                                             4          1          -    Covered              
+//#         bin at3                                             0          1          -    ZERO                 
+//#         bin at4                                             0          1          -    ZERO                 
+//#         bin at5                                             0          1          -    ZERO                 
+//#     Coverpoint c1                                       0.00%        100          -    ZERO                 
+//#         covered/total bins:                                 0          8          -                      
+//#         missing/total bins:                                 8          8          -                      
+//#         % Hit:                                          0.00%        100          -                      
+//#         bin auto[0]                                         0          1          -    ZERO                 
+//#         bin auto[1]                                         0          1          -    ZERO                 
+//#         bin auto[2]                                         0          1          -    ZERO                 
+//#         bin auto[3]                                         0          1          -    ZERO                 
+//#         bin auto[4]                                         0          1          -    ZERO                 
+//#         bin auto[5]                                         0          1          -    ZERO                 
+//#         bin auto[6]                                         0          1          -    ZERO                 
+//#         bin auto[7]                                         0          1          -    ZERO                 
+//#  TYPE /FunctionalCoverageTB7/coverPClass/b_e_d          0.00%        100          -    ZERO                 
+//#     covered/total bins:                                     0         24          -                      
+//#     missing/total bins:                                    24         24          -                      
+//#     % Hit:                                              0.00%        100          -                      
+//#     Coverpoint b1                                       0.00%        100          -    ZERO                 
+//#         covered/total bins:                                 0         16          -                      
+//#         missing/total bins:                                16         16          -                      
+//#         % Hit:                                          0.00%        100          -                      
+//#         bin auto[0]                                         0          1          -    ZERO                 
+//#         bin auto[1]                                         0          1          -    ZERO                 
+//#         bin auto[2]                                         0          1          -    ZERO                 
+//#         bin auto[3]                                         0          1          -    ZERO                 
+//#         bin auto[4]                                         0          1          -    ZERO                 
+//#         bin auto[5]                                         0          1          -    ZERO                 
+//#         bin auto[6]                                         0          1          -    ZERO                 
+//#         bin auto[7]                                         0          1          -    ZERO                 
+//#         bin auto[8]                                         0          1          -    ZERO                 
+//#         bin auto[9]                                         0          1          -    ZERO                 
+//#         bin auto[10]                                        0          1          -    ZERO                 
+//#         bin auto[11]                                        0          1          -    ZERO                 
+//#         bin auto[12]                                        0          1          -    ZERO                 
+//#         bin auto[13]                                        0          1          -    ZERO                 
+//#         bin auto[14]                                        0          1          -    ZERO                 
+//#         bin auto[15]                                        0          1          -    ZERO                 
+//#     Coverpoint dPe                                      0.00%        100          -    ZERO                 
+//#         covered/total bins:                                 0          8          -                      
+//#         missing/total bins:                                 8          8          -                      
+//#         % Hit:                                          0.00%        100          -                      
+//#         bin auto[0]                                         0          1          -    ZERO                 
+//#         bin auto[1]                                         0          1          -    ZERO                 
+//#         bin auto[2]                                         0          1          -    ZERO                 
+//#         bin auto[3]                                         0          1          -    ZERO                 
+//#         bin auto[4]                                         0          1          -    ZERO                 
+//#         bin auto[5]                                         0          1          -    ZERO                 
+//#         bin auto[6]                                         0          1          -    ZERO                 
+//#         bin auto[7]                                         0          1          -    ZERO                 
+//# 
+//# TOTAL COVERGROUP COVERAGE: 10.00%  COVERGROUP TYPES: 2
+//# 
+//# Total Coverage By Instance (filtered view): 10.00%
+//////////////////////////////////////////////////////////////////////////////////
+
+
 module FunctionalCoverageTB7(); 
 	logic clk; 
   	logic rest; 
