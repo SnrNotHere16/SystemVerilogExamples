@@ -245,8 +245,8 @@ module AssertionsPracticeTB2();
    sequence a_b_s; 
 //        ## 1 b == 0 ## 1 b == 0 ## 1 b == 0 ## 1 b == 0;
           ##1 b[*3]; 
-//        ##1 b[->3]; //go to repetition 
-//        ##1 b[=3]; //non-consecutive repetition 
+//        ##1 b[->3]; //go to repetition - works on booleans 
+//        ##1 b[=3]; //non-consecutive repetition - works on booleans 
    endsequence: a_b_s 
    
    property a_b_p; 
