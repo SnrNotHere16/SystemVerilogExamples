@@ -105,6 +105,7 @@ module AssertionsPracticeTB();
    always #5 clk = ~clk;
    task automatic a_b_im (input logic a1, b1, input logic [3:0] rep);
         repeat (rep) @ (posedge clk) begin 
+            //assert identical a == b
             assert(!(a^b)) else $display ("a^b\na:%d b:%d", a, b); //immediate assertion 
             a <= a1; 
             b <= b1;
