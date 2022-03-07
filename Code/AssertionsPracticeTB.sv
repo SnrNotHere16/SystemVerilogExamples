@@ -153,7 +153,7 @@ property Z;
 endproperty: Z
 
 property c_d; 
-    @(posedge clk) c |-> ##[1:4]d; //implicatin operator (overlapping) 
+    @(posedge clk) c |-> ##[1:4]d; //implication operator (overlapping) 
 endproperty: c_d
 
 property e_f; 
