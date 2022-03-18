@@ -92,7 +92,6 @@
 //e_f failed e:1 ea:1 f:0
 //////////////////////////////////////////////////////////////////////////////////
 
-
 module AssertionsPracticeTB();
     logic clk, a, b, c, d, e, ea, f, x;
     wire  z; 
