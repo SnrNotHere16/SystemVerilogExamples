@@ -1,8 +1,8 @@
 # SystemVerilogExamples
 // A set of systemverilog examples 
 1. Array Practice 
-  a. packed array 
-  b. unpacked array 
+  1. packed array 
+  2. unpacked array 
     1. Queue 
 3. Assertions Practice 
 4. Classes Practice 
