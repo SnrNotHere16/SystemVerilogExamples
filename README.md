@@ -1,8 +1,11 @@
 # SystemVerilogExamples
 // A set of systemverilog examples 
 1. Array Practice 
-2. Assertions Practice 
-3. Classes Practice 
-4. Functional Coverage Practice 
-5. Randomize Practice 
-6. Tasks/Functions Practice 
+  a. packed array 
+  b. unpacked array 
+    1. Queue 
+3. Assertions Practice 
+4. Classes Practice 
+5. Functional Coverage Practice 
+6. Randomize Practice 
+7. Tasks/Functions Practice 
