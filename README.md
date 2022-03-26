@@ -7,3 +7,4 @@ A set of systemverilog examples
 5. Randomize Practice 
 6. Tasks/Functions Practice 
 7. Interfaces 
+8. Sequence detector Mealy/Moore
