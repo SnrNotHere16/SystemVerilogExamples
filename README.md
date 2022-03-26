@@ -6,3 +6,4 @@ A set of systemverilog examples
 4. Functional Coverage Practice 
 5. Randomize Practice 
 6. Tasks/Functions Practice 
+7. Interfaces 
