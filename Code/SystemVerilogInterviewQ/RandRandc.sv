@@ -10,31 +10,31 @@ randc : it is random number with no repetition for a cycle. it may repeat once i
 */
 
 module randc_function;
-class rand_clas;
-rand bit [1:0] myvar;
-bit [1:0] list[$];
-constraint cycle { unique {myvar,list};}
+	class rand_clas;
+		rand bit [1:0] myvar;
+		bit [1:0] list[$];
+		constraint cycle { unique {myvar,list};}
 
-function void pre_randomize;
-if (list.size() == 4) list = {};
-endfunction
+		function void pre_randomize;
+			if (list.size() == 4) list = {};
+		endfunction
 
-function void post_randomize;
-list.push_back(myvar);
-endfunction
+		function void post_randomize;
+			list.push_back(myvar);
+		endfunction
 
-endclass:rand_clas
+	endclass:rand_clas
 
-initial
-begin
-int x;
-rand_clas rand_class = new();
-for (int i=0;i<=20;i++) begin
-if(rand_class.randomize());
-$display(“sucsessfull : Var = %0d “,rand_class.myvar);
+	initial
+	begin
+		int x;
+		rand_clas rand_class = new();
+		for (int i=0;i<=20;i++) begin
+		if(rand_class.randomize());
+		$display(“sucsessfull : Var = %0d “,rand_class.myvar);
 
-end
-end
+		end
+	end
 
 endmodule:randc_function
 
