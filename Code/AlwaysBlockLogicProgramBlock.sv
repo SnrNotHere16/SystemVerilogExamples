@@ -23,3 +23,10 @@ forever begin
    join_any
    disable fork
 end
+//Write a clock generator without using always block. 
+initial begin
+   clk <= '0;
+   forever #(CYCLE/2) clk = ~clk
+end
+
+
