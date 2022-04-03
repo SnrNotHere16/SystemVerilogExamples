@@ -8,3 +8,4 @@ A set of systemverilog examples
 6. Tasks/Functions Practice 
 7. Interfaces 
 8. Sequence detector Mealy/Moore
+9. SystemVerilog Examples
