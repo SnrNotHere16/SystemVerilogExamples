@@ -14,4 +14,5 @@ module M1(ck, enin, din, enout, dout);
 	initial begin
 		sab = sd.din[7:0];
 	end
+	
 endmodule:M1
