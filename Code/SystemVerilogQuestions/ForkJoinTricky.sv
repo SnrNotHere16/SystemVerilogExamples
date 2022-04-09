@@ -23,6 +23,7 @@ executing. None of the threads spawned by the fork/join_none start executing
 until the thread spawned by the initial block finishes.
 */
 
+
 module fork_test1;
 	initial begin
 		for (int j=0; j<3; j++)
@@ -46,6 +47,7 @@ Output
 2
 3
 */
+
 
 //Using AutoMatic 
 
