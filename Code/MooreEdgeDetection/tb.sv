@@ -9,17 +9,20 @@ module tb();
   
   FSM FSM_DUT(.*); 
   initial begin 
+      $dumpfile("dump.vcd");
+  $dumpvars;
     clk = 1'b0;  
     forever#10 clk = ~clk; 
   end 
   
   initial begin 
+    level = 1'b0; 
     #45 reset = 1'b1; 
     #20 reset = 1'b0;
     for (int i = 0; i < 25; i++) begin 
-      @(negedge clk)  
+      @(posedge clk)  
       	level = $urandom_range(1,0); 
-      $display("level = %d  tick = %d state = %d", level, tick, state_o); 
+      $display("%t level = %d  tick = %d state = %d", $realtime, level, tick, state_o); 
     end 
     $stop; 
   end 
