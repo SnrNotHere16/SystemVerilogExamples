@@ -1,4 +1,44 @@
 // Code your design here
+/*Output
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# 
+# vsim -voptargs=+acc=npr
+# run -all
+# level = 1  tick = 0 state = X
+# level = 0  tick = 0 state = 0
+# level = 0  tick = 0 state = 0
+# level = 0  tick = 0 state = 0
+# level = 0  tick = 0 state = 0
+# level = 1  tick = 0 state = 0
+# level = 0  tick = 1 state = 1
+# level = 0  tick = 0 state = 0
+# level = 0  tick = 0 state = 0
+# level = 1  tick = 0 state = 0
+# level = 0  tick = 1 state = 1
+# level = 1  tick = 0 state = 0
+# level = 1  tick = 1 state = 1
+# level = 0  tick = 0 state = 2
+# level = 0  tick = 0 state = 0
+# level = 1  tick = 0 state = 0
+# level = 0  tick = 1 state = 1
+# level = 0  tick = 0 state = 0
+# level = 0  tick = 0 state = 0
+# level = 1  tick = 0 state = 0
+# level = 0  tick = 1 state = 1
+# level = 1  tick = 0 state = 0
+# level = 0  tick = 1 state = 1
+# level = 0  tick = 0 state = 0
+# level = 1  tick = 0 state = 0
+# ** Note: $stop    : testbench.sv(24)
+#    Time: 560 ns  Iteration: 1  Instance: /tb
+# Break at testbench.sv line 24
+# exit
+# End time: 00:14:53 on Apr 17,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+Done
+*/
 module FSM(input logic clk, reset,
            input logic level, 
            output logic tick,
