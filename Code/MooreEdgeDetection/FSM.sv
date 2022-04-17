@@ -39,20 +39,24 @@
 # Errors: 0, Warnings: 0
 Done
 */
+// Code your design here
 module FSM(input logic clk, reset,
            input logic level, 
            output logic tick,
            output logic [1:0] state_o
            ); 
- 		
+ 	
+  logic p_level; 
   typedef enum logic [1:0] {ZERO, ONE, TWO} state; 
   state current_state, next_state; 
   always_ff @(posedge reset, posedge clk) begin 
     if (reset) begin 
     	current_state <= ZERO; 
+      	p_level <= 1'b0; 
     end 
     else begin 
         current_state <= next_state; 
+      	p_level <= level; 
     end 
     
   end 
